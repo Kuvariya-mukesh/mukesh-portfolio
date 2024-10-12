@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Sidebar with Toggle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .main-container {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            position: fixed;
+            right: -250px; /* Hide the sidebar initially by moving it off-screen */
+            transition: 0.3s;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+        }
+
+        .sidebar ul li {
+            margin: 20px 0;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #575757;
+            padding-right: 10px;
+            transition: 0.3s;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+            transition: margin-right 0.3s;
+        }
+
+        .open-btn {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .open-btn:hover {
+            background-color: #575757;
+        }
+
+        .open-sidebar .content {
+            margin-right: 250px; /* Shifts content when sidebar opens */
+        }
+    </style>
+</head>
+<body>
+    <!-- Main Content and Sidebar Wrapper -->
+    <header class="main-container">
+        <!-- Main Content Section -->
+        <div class="content">
+            <h1>Welcome to the Page</h1>
+            <p>This is the main content area.</p>
+            <button class="open-btn" onclick="openSidebar()">Open Sidebar</button>
+        </div>
+
+        <!-- Sidebar Section -->
+        <div id="sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeSidebar()">×</a>
+            <h2>Sidebar Menu</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        function openSidebar() {
+            document.getElementById("sidebar").style.right = "0";  // Show the sidebar
+            document.body.classList.add("open-sidebar");  // Add class to shift content
+        }
+
+        function closeSidebar() {
+            document.getElementById("sidebar").style.right = "-250px";  // Hide the sidebar
+            document.body.classList.remove("open-sidebar");  // Remove class to reset content position
+        }
+    </script>
+</body>
+</html>
