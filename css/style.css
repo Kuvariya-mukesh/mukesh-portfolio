@@ -1,5 +1,3 @@
-.main_title
-
 /*----------------------------------------------------
 @File: Default Styles
 @Author: SPONDON IT
@@ -29,6 +27,7 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 
+
 /*----------------------------------------------------*/
 body {
   line-height: 26px;
@@ -39,15 +38,14 @@ body {
   background: url(../img/body-bg.png) no-repeat center;
 }
 
-h2
-h1,
+h2 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   color: #000000;
 }
 
@@ -105,7 +103,7 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 80px 0;
+  padding: 70px 0;
 }
 
 @media (max-width: 1199px) {
@@ -143,7 +141,7 @@ button:focus {
 
 @media (max-width: 1199px) {
   .main_title {
-    margin: 5px 0;
+    margin: 50px 0;
   }
 }
 
@@ -387,7 +385,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
   line-height: 45px;
-  color:gray;
+  color: gray;
   font-size: 1em;
   padding: 0px 30px;
   transition: all 150ms linear;
@@ -493,22 +491,22 @@ button:focus {
 
 .home_banner_area .banner_inner {
   width: 100%;
-  
+
 }
 
 
-.home_banner_area .banner_inner .home_right_img{
+.home_banner_area .banner_inner .home_right_img {
   padding-top: 50px;
 }
 
 .home_banner_area .banner_inner .home_right_img img {
   max-width: 100%;
   height: auto;
-  
+
 }
 
 @media (max-width: 1480px) {
-  
+
   .home_banner_area .banner_inner .home_right_img img {
     max-width: 100%;
     height: auto;
@@ -516,7 +514,7 @@ button:focus {
 }
 
 @media (max-width: 991px) {
-  
+
   .home_banner_area .banner_inner .home_right_img {
     display: none;
   }
@@ -534,7 +532,7 @@ button:focus {
 }
 
 @media (max-width: 991px) {
-  
+
   .home_banner_area .banner_inner .banner_content {
     margin-top: 1px;
   }
@@ -546,7 +544,7 @@ button:focus {
   margin-bottom: 20px;
   position: relative;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 
@@ -561,7 +559,7 @@ button:focus {
 }
 
 @media (max-width: 575px) {
-  
+
   .home_banner_area .banner_inner .banner_content h3:after {
     display: none;
   }
@@ -576,39 +574,39 @@ button:focus {
   color: #4458dc;
   font-weight: bold;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.home_banner_area .banner_inner .banner_content h1 span{
-  
-  color:#000000;
-  
+.home_banner_area .banner_inner .banner_content h1 span {
+
+  color: #000000;
+
 }
 
 @media (max-width: 1024px) {
-  
+
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 60px;
   }
-  
+
   .home_banner_area .banner_inner .banner_content h1 span {
     font-size: 60px;
-    color:#e13b33;
+    color: #e13b33;
   }
 }
 
 @media (max-width: 767px) {
-  
+
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: aliceblue;
   }
-  
+
   .home_banner_area .banner_inner .banner_content h1 span {
     font-size: 30px;
-    color:#e13b33;
+    color: #e13b33;
   }
 }
 
@@ -616,7 +614,7 @@ button:focus {
 .home_banner_area .banner_inner .banner_content h5 {
   font-size: 24px;
   margin-bottom: 35px;
-  color:#eb6b55;
+  color: #eb6b55;
 }
 
 
@@ -653,25 +651,29 @@ button:focus {
     display: flex;
     align-items: center;
   }
+
   .banner_area {
     background: url(../img/banner/common-banner-3.jpg) no-repeat top center;
   }
 }
+
 .banner_area .banner_inner .col-lg-7 {
   vertical-align: middle;
   align-self: center;
 }
+
 .banner_area .banner_inner .banner_content {
   text-align: left;
 }
-.banner_area .banner_inner .comman_right_img{
+
+.banner_area .banner_inner .comman_right_img {
   padding-top: 20px;
 }
 
 .banner_area .banner_inner .comman_right_img img {
   max-width: 100%;
   height: auto;
-  
+
 }
 
 @media (max-width: 991px) {
@@ -679,16 +681,17 @@ button:focus {
     margin-left: 0px;
     /* margin-top: 50px; */
   }
+
   .banner_area .banner_inner .comman_right_img {
     display: none;
   }
 }
 
 .banner_area .banner_inner .banner_content h2 {
-  color:#4458dc;
+  color: #4458dc;
   font-size: 50px;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
   font-weight: 700;
@@ -699,18 +702,21 @@ button:focus {
     font-size: 30px;
     color: aliceblue;
   }
-  
-  .home_banner_area .banner_inner .banner_content h1{
+
+  .home_banner_area .banner_inner .banner_content h1 {
     color: aliceblue;
   }
+
   .banner_area .banner_inner .banner_content h2 span {
     font-size: 30px;
-    color:#f44a40;
+    color: #f44a40;
   }
-  .banner_area .banner_inner .banner_content p{
+
+  .banner_area .banner_inner .banner_content p {
     color: aliceblue;
     font-size: 1em;
   }
+
   .banner_area .banner_inner .banner_content .page_link a {
     color: #fff;
   }
@@ -1748,7 +1754,7 @@ button:focus {
 .mapBox iframe {
   width: 100%;
   height: 300px;
-  
+
 }
 
 @media (max-width: 991.98px) {
@@ -2659,11 +2665,11 @@ h6 {
   padding-left: 30px;
   line-height: 1.82em !important; */
   position: relative;
-    padding-left: 30px;
-    line-height: 1.82em !important;
-    color: cadetblue;
-    font-weight: 800;
-    font-family: 'Roboto';
+  padding-left: 30px;
+  line-height: 1.82em !important;
+  color: cadetblue;
+  font-weight: 800;
+  font-family: 'Roboto';
 }
 
 .unordered-list li:before {
@@ -3401,10 +3407,12 @@ h6 {
   position: relative;
   /* right: 250px; */
 }
+
 .about_area .about_img img {
   max-width: 100%;
   height: auto;
 }
+
 @media (max-width: 1480px) {
   .about_area .about_img {
     right: 0;
@@ -3592,7 +3600,7 @@ h6 {
 .client-info .lage {
   color: #854fee;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 50px;
   font-weight: 700;
   line-height: 85px;
@@ -3606,7 +3614,7 @@ h6 {
   text-align: left;
   color: #000000;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 22px;
   margin-left: 20px;
 }
@@ -3814,7 +3822,7 @@ h6 {
 
 .portfolio_details_inner .portfolio_right_text .list li span {
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   color: #000000;
   font-size: 16px;
   font-weight: 500;
@@ -3866,7 +3874,8 @@ h6 {
 
 .testimonial_area .owl-carousel .owl-item img {
   width: 80px;
-  height: 80px;;
+  height: 80px;
+  ;
 }
 
 .testi_item {
@@ -3885,7 +3894,8 @@ h6 {
   .testi_item {
     margin-bottom: 0px;
   }
-  .testimonial_area .owl-carousel .owl-item img{
+
+  .testimonial_area .owl-carousel .owl-item img {
     width: 160px;
     height: 160px;
   }
@@ -4011,7 +4021,7 @@ h6 {
   line-height: 48px;
   font-size: 14px;
   font-family: "Maven Pro", sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   padding: 15px 38px;
   cursor: pointer;
 }
@@ -4069,7 +4079,7 @@ h6 {
   ============================================================================================ */
   /* Home Banner Area css
   ============================================================================================ */
-  
+
   .home_banner_area .banner_inner {
     padding: 100px 0;
   }
@@ -4080,13 +4090,13 @@ h6 {
     margin-left: 40px;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content h2 br {
     display: none;
     font-size: 36px;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 36px;
     line-height: 45px;
@@ -4218,10 +4228,11 @@ h6 {
   .home_right_img {
     display: none;
   }
-  
-  .home_banner_area .banner_inner .banner_content h3{
-    color:aliceblue;
+
+  .home_banner_area .banner_inner .banner_content h3 {
+    color: aliceblue;
   }
+
   /* Footer Area css
   ============================================================================================ */
   .footer_area {
@@ -4289,7 +4300,7 @@ h6 {
 
   /* End End Footer Area css
   ============================================================================================ */
-  
+
   .home_banner_area .banner_inner .home_left_img {
     display: none;
   }
@@ -4317,28 +4328,29 @@ h6 {
     min-height: 300px;
   }
 
-  
+
   .home_banner_area .banner_inner {
     min-height: 450px;
     padding: 100px 0;
-    
+
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content .primary_btn {
     font-size: 12px;
-         
+
   }
-  
-  .home_banner_area .banner_inner .banner_content .primary_btn span{
+
+  .home_banner_area .banner_inner .banner_content .primary_btn span {
     padding: 0 12px;
-         
+
   }
+
   /* Blog Page Area css
   ============================================================================================ */
   .blog_info.text-right {
@@ -4348,18 +4360,18 @@ h6 {
 
   /* End Blog Page Area css
   ============================================================================================ */
-  
+
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px;
-    color:aliceblue;
+    color: aliceblue;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content p br {
     display: none;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content h3 span {
     line-height: 45px;
     padding-bottom: 0px;
@@ -4409,7 +4421,7 @@ h6 {
 
   /* Home Banner Area css
   ============================================================================================ */
-  
+
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 28px;
     line-height: 38px;
@@ -4419,18 +4431,18 @@ h6 {
     min-height: 450px;
   } */
 
-  
+
   .home_banner_area .banner_inner {
     min-height: 300px;
     padding: 0;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content img {
     display: none;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content h5 {
     margin-top: 0px;
   }
@@ -4438,8 +4450,7 @@ h6 {
   /* End Home Banner Area css
   ============================================================================================ */
   .section_gap {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 0;
   }
 
   .main_title h2 {
@@ -4502,13 +4513,13 @@ h6 {
   ============================================================================================ */
   /* Home Banner Area css
   ============================================================================================ */
-  
+
   .home_banner_area .banner_inner .banner_content {
     padding: 30px 15px;
     margin-top: 0px;
   }
 
-  
+
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 24px;
   }
