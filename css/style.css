@@ -143,7 +143,7 @@ button:focus {
 
 @media (max-width: 1199px) {
   .main_title {
-    margin-bottom: 50px;
+    margin: 50px 0;
   }
 }
 
@@ -490,14 +490,17 @@ button:focus {
   background-size: cover;
 }
 
+
 .home_banner_area .banner_inner {
   width: 100%;
-  padding: 50px 0;
+  
 }
+
 
 .home_banner_area .banner_inner .home_right_img{
   padding-top: 50px;
 }
+
 .home_banner_area .banner_inner .home_right_img img {
   max-width: 100%;
   height: auto;
@@ -505,6 +508,7 @@ button:focus {
 }
 
 @media (max-width: 1480px) {
+  
   .home_banner_area .banner_inner .home_right_img img {
     max-width: 100%;
     height: auto;
@@ -512,25 +516,30 @@ button:focus {
 }
 
 @media (max-width: 991px) {
+  
   .home_banner_area .banner_inner .home_right_img {
     display: none;
   }
 }
+
 
 .home_banner_area .banner_inner .col-lg-7 {
   vertical-align: middle;
   align-self: center;
 }
 
+
 .home_banner_area .banner_inner .banner_content {
   text-align: left;
 }
 
 @media (max-width: 991px) {
+  
   .home_banner_area .banner_inner .banner_content {
-    margin-top: 150px;
+    margin-top: 1px;
   }
 }
+
 
 .home_banner_area .banner_inner .banner_content h3 {
   font-size: 40px;
@@ -539,6 +548,7 @@ button:focus {
   font-family: "Maven Pro", sans-serif;
   font-weight:bold;
 }
+
 
 .home_banner_area .banner_inner .banner_content h3:after {
   content: '';
@@ -551,21 +561,24 @@ button:focus {
 }
 
 @media (max-width: 575px) {
+  
   .home_banner_area .banner_inner .banner_content h3:after {
     display: none;
   }
 }
+
 
 .home_banner_area .banner_inner .banner_content h1 {
   margin-top: 20px;
   font-size: 50px;
   line-height: 60px;
   margin-bottom: 25px;
-  color: #854fee;
+  color: #4458dc;
   font-weight: bold;
   font-family: "Maven Pro", sans-serif;
   font-weight:bold;
 }
+
 .home_banner_area .banner_inner .banner_content h1 span{
   
   color:#000000;
@@ -573,9 +586,11 @@ button:focus {
 }
 
 @media (max-width: 1024px) {
+  
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 60px;
   }
+  
   .home_banner_area .banner_inner .banner_content h1 span {
     font-size: 60px;
     color:#e13b33;
@@ -583,23 +598,27 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  
   .home_banner_area .banner_inner .banner_content h1 {
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
     color: aliceblue;
   }
+  
   .home_banner_area .banner_inner .banner_content h1 span {
     font-size: 30px;
     color:#e13b33;
   }
 }
 
+
 .home_banner_area .banner_inner .banner_content h5 {
   font-size: 24px;
   margin-bottom: 35px;
   color:#eb6b55;
 }
+
 
 .home_banner_area .banner_inner .banner_content .primary_btn {
   margin-right: 20px;
@@ -614,7 +633,7 @@ button:focus {
 
 @media (max-width: 1199px) {
   .banner_area {
-    min-height: 350px;
+    min-height: 300px;
   }
 }
 
@@ -624,7 +643,7 @@ button:focus {
 
 @media (max-width: 1199px) {
   .banner_area .banner_inner {
-    min-height: 350px;
+    min-height: 300px;
   }
 }
 
@@ -658,7 +677,7 @@ button:focus {
 @media (max-width: 991px) {
   .banner_area .banner_inner .banner_content {
     margin-left: 0px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
   .banner_area .banner_inner .comman_right_img {
     display: none;
@@ -680,6 +699,7 @@ button:focus {
     font-size: 30px;
     color: aliceblue;
   }
+  
   .home_banner_area .banner_inner .banner_content h1{
     color: aliceblue;
   }
@@ -3379,7 +3399,7 @@ h6 {
 
 .about_area .about_img {
   position: relative;
-  right: 250px;
+  /* right: 250px; */
 }
 .about_area .about_img img {
   max-width: 100%;
@@ -3444,7 +3464,8 @@ h6 {
 }
 
 .feature_item img {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
+  height: 45px;
 }
 
 .feature_item h4 {
@@ -4048,8 +4069,9 @@ h6 {
   ============================================================================================ */
   /* Home Banner Area css
   ============================================================================================ */
+  
   .home_banner_area .banner_inner {
-    /* padding: 100px 0; */
+    padding: 100px 0;
   }
 
   /* End Home Banner Area css
@@ -4058,11 +4080,13 @@ h6 {
     margin-left: 40px;
   }
 
+  
   .home_banner_area .banner_inner .banner_content h2 br {
     display: none;
     font-size: 36px;
   }
 
+  
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 36px;
     line-height: 45px;
@@ -4194,6 +4218,7 @@ h6 {
   .home_right_img {
     display: none;
   }
+  
   .home_banner_area .banner_inner .banner_content h3{
     color:aliceblue;
   }
@@ -4264,6 +4289,7 @@ h6 {
 
   /* End End Footer Area css
   ============================================================================================ */
+  
   .home_banner_area .banner_inner .home_left_img {
     display: none;
   }
@@ -4291,20 +4317,24 @@ h6 {
     min-height: 300px;
   }
 
+  
   .home_banner_area .banner_inner {
-    min-height: 300px;
-    /* padding-top: 100px; */
+    min-height: 450px;
+    padding: 100px 0;
     
   }
 
+  
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px;
   }
 
+  
   .home_banner_area .banner_inner .banner_content .primary_btn {
     font-size: 12px;
          
   }
+  
   .home_banner_area .banner_inner .banner_content .primary_btn span{
     padding: 0 12px;
          
@@ -4318,15 +4348,18 @@ h6 {
 
   /* End Blog Page Area css
   ============================================================================================ */
+  
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 30px;
     color:aliceblue;
   }
 
+  
   .home_banner_area .banner_inner .banner_content p br {
     display: none;
   }
 
+  
   .home_banner_area .banner_inner .banner_content h3 span {
     line-height: 45px;
     padding-bottom: 0px;
@@ -4376,6 +4409,7 @@ h6 {
 
   /* Home Banner Area css
   ============================================================================================ */
+  
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 28px;
     line-height: 38px;
@@ -4385,14 +4419,18 @@ h6 {
     min-height: 450px;
   } */
 
+  
   .home_banner_area .banner_inner {
-    min-height: 415px;
+    min-height: 300px;
+    padding: 0;
   }
 
+  
   .home_banner_area .banner_inner .banner_content img {
     display: none;
   }
 
+  
   .home_banner_area .banner_inner .banner_content h5 {
     margin-top: 0px;
   }
@@ -4464,11 +4502,13 @@ h6 {
   ============================================================================================ */
   /* Home Banner Area css
   ============================================================================================ */
+  
   .home_banner_area .banner_inner .banner_content {
     padding: 30px 15px;
     margin-top: 0px;
   }
 
+  
   .home_banner_area .banner_inner .banner_content h3 {
     font-size: 24px;
   }
