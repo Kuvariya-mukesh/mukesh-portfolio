@@ -27,7 +27,6 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 
-
 /*----------------------------------------------------*/
 body {
   line-height: 26px;
@@ -434,7 +433,16 @@ button:focus {
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
   line-height: 70px;
 }
-
+@media (max-width: 991px) {
+  .header_area .main_menu .navbar .change-logo1{
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .header_area .main_menu .navbar .change-logo2{
+    display: none;
+  }
+}
 @media (min-width: 992px) {
   .header_area.white_menu .navbar .navbar-brand img {
     display: none;
